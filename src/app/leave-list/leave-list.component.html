@@ -1,0 +1,20 @@
+<div class="container">
+    <h2> <span><img height="40px" src="https://cdn-icons-png.flaticon.com/128/839/839860.png" /></span> Leave List </h2>
+    <br />
+    <ul class="responsive-table">
+        <li class="table-header">
+            <div class="col col-1">Name</div>
+            <div class="col col-2">Period</div>
+            <div class="col col-3">Leave Type</div>
+            <div class="col col-3">Status</div>
+            
+        </li>
+        <li class="table-row" *ngFor="let leave of leaves" >
+            <div class="col col-1" data-label="Job Id">{{leave.Name}}</div>
+            <div class="col col-2" data-label="Customer Name">{{leave.fromDate}} : {{leave.toDate}}</div>
+            <div class="col col-3" data-label="Amount">{{leave.type}}</div>
+            <div class="col col-3" data-label="Amount">{{leave.type}}</div>
+        </li>
+
+    </ul>
+</div>

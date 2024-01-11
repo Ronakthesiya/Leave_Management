@@ -1,0 +1,30 @@
+
+.head{
+    /* color : #D39E7C; */
+    color : black
+}
+
+.header{
+    background-color: rgb(69, 58, 58);
+}
+#hdlogo,#hdprofile,#hdname{
+    float : left;
+}
+#hdlogo{
+    width : 80px;
+}
+.header{
+    height: 100px;
+    background-color: red;
+}
+.sidebar
+{
+    width: 30%;
+    float: left;
+    background-color: rgb(197, 90, 90);
+}
+.card
+{
+    float: left;
+    width: 60%;
+}

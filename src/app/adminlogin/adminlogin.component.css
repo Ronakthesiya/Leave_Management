@@ -1,0 +1,48 @@
+.lmain{
+    margin: 100px auto;
+    width : 800px;
+    height: 450px;
+    /* background-color: #ECE0D0; */
+}
+.pt1{
+    float: left;
+    width : 300px;
+    height: 100%;
+    background-color: #064469;
+}   
+.msg{
+    height : 30px;
+    color: red;
+}
+.pt2{
+    float: left;
+    height: 100%;
+    width : 500px;
+    background-color: #D0D7E1;
+}
+.logols{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    margin: 80px auto 30px auto;
+}
+.lsimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+.lsbtn{
+    background-color: #5790AB;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+}
+.gobtn{
+    float : left;
+}
+.loginbtn{
+    float : right;
+}
+button:hover{
+    background-color: #80A9BC;
+}

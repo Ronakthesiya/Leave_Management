@@ -1,0 +1,56 @@
+
+.head{
+    
+}
+.i1{
+    float: left;
+}
+.i2{
+    color: white;
+    font-size:30px;
+    float : left;
+    padding: 12px;
+}
+.header{
+    background-color:#072d44;
+}
+
+.header{
+    height: 10vh;
+
+}
+.sidebar
+{
+    height: 90vh;
+    width: 16%;
+    float: left;
+    background-color: #064469;
+}
+.main
+{
+    height: 90vh;
+    width:82%;
+    float: left;  
+    background-color: #D0D7E1;
+}
+
+img{
+    height: 67px ;
+    border-radius: 200px;
+}
+li{
+    text-align: center;
+    width: 82%;
+    font-size: larger;
+    margin-top: 40px;
+    color:  #010101;
+    font-weight: 400;
+    
+    border-bottom: 2px solid #ffffff;
+}
+
+
+/* rgb(237, 225, 209)
+
+#80A9BC;
+#D39E7C; */

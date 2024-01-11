@@ -1,0 +1,31 @@
+<div class="container-fluid" style="height: 100vh;">
+  <div class="header pt-1">
+    <div class="i1">
+      <img src="assets/images/logo.jpg">
+    </div>
+    <div class="i2 text-light fw-bold ">
+      Webwizard
+    </div>
+  </div>
+  <div class="two mt-2 ">
+    <div class="sidebar">
+      <div class="part">
+        <ul type="none">
+          <li><a routerLink="empprofile/:id">Profile</a></li>
+
+          <li><a routerLink="leave">My Leave</a> </li>
+
+          <li><a routerLink="leaveForm">Request</a></li>
+
+          <li>About</li>
+        </ul>
+
+
+      </div>
+    </div>
+    <div class="main">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</div>

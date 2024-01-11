@@ -1,0 +1,29 @@
+<div class="card leavec" *ngFor="let temp of leaves">
+    <h5 class="card-header">{{temp.Name}}</h5>
+    <div class="card-body">
+        <tr>
+            <td><h6>department : </h6></td>
+            <td><h5 class="card-title">{{temp.department}}</h5></td>
+        </tr>
+        
+        <tr>
+            <th>From date : </th>
+            <td class="pe-4">{{temp.fromDate}}</td> 
+            <th>To date : </th>
+            <td>{{temp.toDate}}</td>
+        </tr>
+        <tr>
+            <th>Leave Type : </th>
+            <td>{{temp.type}}</td>
+        </tr>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <tr>
+
+            <button routerLink="#" class="card-link btn btn-danger mx-4" (click)="deleteleave(temp._id)">Reject</button>
+            <button routerLink="#" class="card-link btn btn-success mx-2" (click)="deleteleave(temp._id)" >Approve</button>
+
+            <!-- <td><button (click)="approve()">Approve</button></td>
+            <td><button (click)="deleteleave(temp._id)">Reject</button></td> -->
+        </tr>
+    </div>
+</div>
